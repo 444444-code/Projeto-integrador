@@ -1,0 +1,17 @@
+:root{
+--background-grey-home: #222222;
+--background-yellow-home: #ffc033;
+
+}
+/* o comando root esta determinando as cores que usaremos no site, para trabalhar com essas 
+cores usamos variaveis */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--background-grey-home);
+}
