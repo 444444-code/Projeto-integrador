@@ -9,12 +9,77 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="/Materialize/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link rel="stylesheet" href="style.css">
-  
+   <!-- Font awesome  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
 </head>
 <body>
+<input type="checkbox" id="check">
 
-  <div class="container"></div>
-   <!--Container para organização dos elementos caso queiram mexer nos elementos completos-->
+  <!--começo da área do Header-->
+  <header>
+    <label for="check">
+      <i class="fas fa-bars" id="sidebar-btn"></i>
+    </label>
+    <div class="left-area">
+      <h3>Novo<span>Cast</span></h3>
+    </div>
+   </header>   
+   <!--final da área do Header-->
+
+    <!--começo da área do menu-->
+     <div class="sidebar">
+        <center>
+           <img src="img/6.png" class="profile-image" alt="">
+           <h4>user</h4>
+        </center>
+        <a href="#"><i class="fas fa-desktop"></i><span>Dashboard</span></a>
+        <a href="#"><i class="fas fa-cogs"></i><span>Componets</span></a>
+        <a href="#"><i class="fas fa-table"></i><span>Tables</span></a>
+        <a href="#"><i class="fas fa-th"></i><span>Forms</span></a>
+        <a href="#"><i class="fas fa-info-circle"></i><span>About</span></a>
+        <a href="#"><i class="fas fa-sliders-h"></i><span>Settings</span></a>
+     </div>
+   <!--final da área do menu-->
+
+     <div class="content"></div>
+
+     <div class="slidershow middle">
+
+    <div class="slides">
+        <input type="radio" name="r" id="r1" checked>
+        <input type="radio" name="r" id="r2">
+        <input type="radio" name="r" id="r3">
+        <input type="radio" name="r" id="r4">
+        <input type="radio" name="r" id="r5">
+        <div class="slide s1">
+          <img src="img/1.jpg" alt="">
+        </div>
+        <div class="slide">
+          <img src="img/2.jpg" alt="">
+        </div>
+        <div class="slide">
+          <img src="img/3.jpg" alt="">
+        </div>
+        <div class="slide">
+          <img src="img/4.jpg" alt="">
+        </div>
+        <div class="slide">
+          <img src="img/5.jpg" alt="">
+        </div>
+      </div>
+        <div class="navigation">
+           <label for="r1" class="bar"></label>
+           <label for="r2" class="bar"></label>
+           <label for="r3" class="bar"></label>
+           <label for="r4" class="bar"></label>
+           <label for="r5" class="bar"></label>
+        </div>
+       </div>
+
+
+
+  <!--font awesome-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js"></script>
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
